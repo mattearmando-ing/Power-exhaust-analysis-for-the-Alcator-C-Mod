@@ -57,7 +57,7 @@ The work follows a complete diagnostic workflow:
 ## 📄 Full Report
 
 For a detailed description of the analytical methods, flux‑tube analysis, and pressure balance calculations, please refer to the  
-[Full Project Report](https://raw.githubusercontent.com/mattearmando-ing/[nome-repository]/main/Alcator_CMod_Power_Exhaust_Report.pdf)
+[Full Project Report](https://raw.githubusercontent.com/mattearmando-ing/Power-exhaust-analysis-for-the-Alcator-C-Mod/main/Alcator_CMod_Power_Exhaust_Report.pdf)
 
 ---
 
