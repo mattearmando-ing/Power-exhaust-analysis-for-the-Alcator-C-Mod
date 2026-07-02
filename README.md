@@ -21,9 +21,9 @@ The work follows a complete diagnostic workflow:
 
 ## 🔬 Key Features
 
-- **Device:** Alcator C‑Mod (High‑field compact tokamak, \(B_T \approx 5.4 \, \text{T}\), \(R_0 \approx 0.675 \, \text{m}\)).
-- **Fusion Plasma:** Deuterium, edge power \(P_{SOL} = 3.6 \, \text{MW}\).
-- **Transport Regime:** High‑field, high‑density edge (\(n_{sep} \approx 1.0 \times 10^{20} \, \text{m}^{-3}\)).
+- **Device:** Alcator C‑Mod (High‑field compact tokamak, B_T ≈ 5.4 T, R₀ ≈ 0.675 m).
+- **Fusion Plasma:** Deuterium, edge power P_SOL = 3.6 MW.
+- **Transport Regime:** High‑field, high‑density edge (n_sep ≈ 1.0 × 10²⁰ m⁻³).
 - **Target Analysis:** Detailed two‑point model assessing pressure drop, particle flux, and recombination losses.
 - **Software Environment:** Jupyter Notebook running inside a **Docker** container with dedicated Python libraries for edge plasma analysis (`sptools`).
 
@@ -31,8 +31,8 @@ The work follows a complete diagnostic workflow:
 
 | Parameter | Estimated Value | Significance |
 | :--- | :--- | :--- |
-| **Major Radius** | `0.675 m` | Compact aspect ratio \(R/a = 3.0\) |
-| **Minor Radius** | `0.225 m` | Highly elongated plasma \(\kappa \approx 1.78\) |
+| **Major Radius** | `0.675 m` | Compact aspect ratio R/a = 3.0 |
+| **Minor Radius** | `0.225 m` | Highly elongated plasma κ ≈ 1.78 |
 | **Connection Length** | `≈ 3.5 m` | Long field lines due to X‑point geometry |
 | **Safety Factor** | `q ≈ 3.4` | Marginally stable edge configuration |
 | **Density Decay Length** | `λ_n ≈ 3 mm` | Extremely steep gradient (high confinement) |
@@ -43,7 +43,7 @@ The work follows a complete diagnostic workflow:
 | **Target Heat Load (High Recycling)** | `≈ 10 MW/m²` | At safety limit, requires detachment |
 | **Detachment Status** | **High Recycling** | Pressure conserved; not yet detached |
 
-> **⚠️ Critical Finding:** The unmitigated heat flux would destroy the divertor instantly. Operation is only possible in the **High Recycling regime**, which reduces the load to the engineering limit (\(\sim 10 \, \text{MW/m}^2\)). However, this is still marginal, demonstrating that full **detachment** is necessary for safe, sustained operation in Alcator C‑Mod.
+> **⚠️ Critical Finding:** The unmitigated heat flux would destroy the divertor instantly. Operation is only possible in the **High Recycling regime**, which reduces the load to the engineering limit (~10 MW/m²). However, this is still marginal, demonstrating that full **detachment** is necessary for safe, sustained operation in Alcator C‑Mod.
 
 ## 🛠️ Technologies & Tools
 
@@ -57,7 +57,7 @@ The work follows a complete diagnostic workflow:
 ## 📄 Full Report
 
 For a detailed description of the analytical methods, flux‑tube analysis, and pressure balance calculations, please refer to the  
-[Full Project Report](https://raw.githubusercontent.com/mattearmando-ing/[nome-repository]/main/PEX_s353526_Armando_Matteo.pdf).
+[Full Project Report](https://raw.githubusercontent.com/mattearmando-ing/[nome-repository]/main/Alcator_CMod_Power_Exhaust_Report.pdf)
 
 ---
 
